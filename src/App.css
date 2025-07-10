@@ -7,9 +7,13 @@
 
 .tg-app {
     min-height: 100vh;
+    background: #f2f2f2 !important;
     display: flex;
     flex-direction: column;
-    background: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: flex-start;
+    width: 100vw;
+    box-sizing: border-box;
 }
 
 /*.container {*/
@@ -186,14 +190,14 @@
 }
 
 .gpu-form-container {
-    margin-top: 16px;
-    background: rgb(255, 255, 255);
-    padding: 32px 10px;
-    border-radius: 16px;
-    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 32px;
-    width: auto;
-    max-width: 90vw;
-    color: rgb(34, 34, 34);
+    background: #fff !important;
+    box-shadow: 0 4px 32px rgba(0,0,0,0.08);
+    border-radius: 18px;
+    padding: 32px 16px;
+    margin-top: 24px;
+    width: 100%;
+    max-width: 480px;
+    box-sizing: border-box;
 }
 
 .gpu-title {
@@ -217,4 +221,20 @@
     padding: 16px 0;
     border-radius: 10px;
     margin-top: 18px;
+}
+
+body, #root {
+    background: #f2f2f2 !important;
+}
+
+@media (max-width: 600px) {
+    .gpu-form-container {
+        padding: 24px 6px;
+        margin-top: 12px;
+        border-radius: 14px;
+        max-width: 98vw;
+    }
+    .tg-app {
+        padding: 0 0 24px 0;
+    }
 }
