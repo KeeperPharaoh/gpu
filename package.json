@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://keeperpharaoh.github.io/stage-tlg-reg/",
+  "homepage": "https://keeperpharaoh.github.io/gpu/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
